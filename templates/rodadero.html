@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAYAS TURISTICAS-TRAVELAND</title>
+    <link rel="shortcut icon" href="../images/LOGO 04.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="shortcut icon" href="../images/LOGO 04.png" type="image/x-icon">
+</head>
+<body>
+  <article class="container__nav">
+    <nav class="nav container">
+        <div class="nav__logo">
+            <h2 class="nav__title">TRAVELAND TOURISM.</h2>
+        </div>
+        <div class="nav__menu-toggle">
+            <img src="../images/menu.svg" class="nav__img" id="menu-toggle">
+        </div>
+        <ul class="nav__link nav__link--menu" id="nav-links">
+            <li class="nav__items">
+                <a href="../index.html" class="nav__links">INICIO</a>
+            </li>
+            <li class="nav__items">
+                <a href="nuestro-equipo.html" class="nav__links">ACERCA DE</a>
+            </li>
+            <li class="nav__items">
+                <a href="#article__slider" class="nav__links">SITIOS-MES</a>
+            </li>
+            <li class="nav__items">
+                <a href="#redes__sociales" class="nav__links">CONTACTO</a>
+            </li>
+            <li class="nav__items">
+                <a href="spot.html" class="nav__links">SPOT</a>
+            </li>
+        </ul>
+    </nav>
+</article>
+<div class="imagen-container">
+  <div class="foto-container">
+      <img class="foto-playa" src="../images/rodadero1.jpg" alt="Playa 1">
+  </div>
+  <div class="foto-container">
+      <img class="foto-playa" src="../images/bahiaconcha2.jpg" alt="Playa 2">
+  </div>
+  <div class="foto-container">
+      <img class="foto-playa" src="../images/taganga.jpg" alt="Playa 3">
+  </div>
+  <div class="texto-en-centro">
+      <h2>PLAYAS TURISTICAS</h2>
+      <p>Descubre el paraíso en nuestras increíbles playas.</p>
+  </div>
+</div>
+    
+    <div class="container-rodadero">
+        <div class="info-rodadero">
+            <h2 class="title-rod">EL RODADERO</h2>
+            <p class="p-roda">El Rodadero es un balneario de la ciudad de Santa Marta, a orillas del mar Caribe en 
+                Colombia. Corresponde a la zona norteº de la comuna de Gaira-Rodadero y se caracteriza por 
+                sus playas de arena clara y sus edificios de gran altura. Su desarrollo comenzó a mediados de 
+                los años 1950 y desde entonces se ha convertido en uno de los principales destinos turísticos 
+                del país</p>
+                    <button class="boton-card" onclick="openModal('info1')">MAS INFO AQUI</button>
+            </div>
+                <div class="slider-contenedor">
+                    <div class="slider-rod">
+                      <img class="foto-slider" src="../images/rodadero2.jpg" alt="Rodadero 1">
+                      <img class="foto-slider" src="../images/rodadero3.jpg" alt="Rodadero 2">
+                      <img class="foto-slider" src="../images/rodadero4.jpg" alt="Rodadero 3">
+                    </div>
+                  </div>
+            </div>
+
+            <div id="info1" class="modal">
+              <div class="modal-content">
+                <span class="close" onclick="closeModal('info1')">&times;</span>
+                <div class="section-roda">
+                    <h1 class="title-roda">PRECIOS PARA MÉTODOS DE TRANSPORTE</h1>
+                    <ul>
+                      <li>Taxi: $17.000</li>
+                      <li>Bus: $2.300</li>
+                    </ul>
+                  </div>
+                
+                  <div class="section-roda">
+                    <h1 class="title-roda">PRECIOS DE LA COMIDA</h1>
+                    <p>Desde los $20.000 dependiendo el tamaño de pescados como mojarra, pargo rojo, cojinúa, sierra y lebranche, con topes hasta de $70.000.</p>
+                  </div>
+                
+                  <div class="section-roda">
+                    <h1 class="title-roda">Mejores restaurantes del Rodadero</h1>
+                    <ul>
+                      <li> <a href="http://www.burukukasantamarta.inf.travel/company/section">Burukuka</li></a> 
+                      <li> <a href="https://www.restaurantedondechucho.com/donde-chucho-rodadero/">Donde Chucho</li></a>
+                      <li> <a href="https://www.instagram.com/pamenafame1/">Pame na Fame</li></a>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+            <script src="script.js"></script>
+
+
+
+            <div class="container-bahia">
+                <div class="info-rodadero">
+                    <h2 class="title-rod">BAHIA CONCHA</h2>
+                    <p class="p-roda">Bahia Concha es una hermosa playa en Santa Marta ubicada a solamente 45 minutos 
+                        aproximadamente del centro de la ciudad. Si estás en Santa Marta y buscas disfrutar una 
+                        hermosa y tranquila playa en Santa Marta para relajarte y desconectarte del mundo exterior, te 
+                        recomendamos visitar la playa Bahía Concha.Bahia Concha es una de las playas más 
+                        visitadas en Santa Marta y la temperatura de esta playa es perfecta para disfrutar un delicioso 
+                        baño en sus tranquilas aguas.</p>
+                            <button class="boton-card" onclick="openModal('info2')">MAS INFO AQUI</button>
+                    </div>
+                        <div class="slider-contenedor">
+                            <div class="slider-rod">
+                              <img class="foto-slider" src="../images/bahia concha 3.jpg" alt="Rodadero 1">
+                              <img class="foto-slider" src="../images/bahia concha 4.jpg" alt="Rodadero 2">
+                              <img class="foto-slider" src="../images/bahia concha 5.jpg" alt="Rodadero 3">
+                            </div>
+                          </div>
+                    </div>
+                    <div id="info2" class="modal">
+                        <div class="modal-content">
+                          <span class="close" onclick="closeModal('info2')">&times;</span>
+                          <div class="section-bh">
+                            <h1 class="title-bh">TRANSPORTE PRECIOS</h1>
+                            <ul>
+                              <li>Taxi: $20.000</li>
+                              <li>Bus: $2.300</li>
+                            </ul>
+                          </div>
+                        
+                          <div class="section-bh">
+                            <h1 class="title-bh">Entrada a Bahía Concha</h1>
+                            <ul>
+                              <li>Extranjero: $30.000</li>
+                              <li>Residente nacional o extranjero (mayor de 5 años hasta 25): $10.500</li>
+                              <li>Nacido en Santa Marta (mayor de 5): $8.000</li>
+                              <li>Adulto nacional o extranjero residente en Colombia: $18.000</li>
+                            </ul>
+                          </div>
+                        
+                          <div class="section-bh">
+                            <h1 class="title-bh">Recomendaciones para Bahía Concha</h1>
+                            <p>Como tal, en Bahía Concha no hay restaurantes. Podemos encontrarlos en sitios aledaños. Sin embargo, te dejaré algunos consejos al momento de ir a Bahía Concha basados en experiencia. Te sugiero que lleves todo lo que requieras, como agua, cerveza en una cava pequeña que cuesta $9.000 y unos sándwich.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="container-bahia">
+                        <div class="info-rodadero">
+                            <h2 class="title-rod">TAGANGA</h2>
+                            <p class="p-roda">Taganga es un corregimiento de Santa Marta, en Magdalena (Colombia). Tiene 3.000 
+                                habitantes. Está compuesto por un poblado a orillas de la bahía del mismo nombre cuya 
+                                actividad tradicional ha sido la pesca, aunque recientemente el turismo ha cobrado una gran 
+                                preeminencia. El acceso es posible por carretera, desde el centro de Santa Marta. También es 
+                                posible ir a Playa Cristal desde Taganga en lancha, o caminar hasta Playa Grande a través de 
+                                un sendero ecológico que atraviesa la montaña y dónde vas a tener una vista muy linda de 
+                                todo el pueblo.</p>
+                                    <button class="boton-card" onclick="openModal('info3')">MAS INFO AQUI</button>
+                            </div>
+                                <div class="slider-contenedor">
+                                    <div class="slider-rod">
+                                      <img class="foto-slider" src="../images/TAGANGA1.jpg" alt="Rodadero 1">
+                                      <img class="foto-slider" src="../images/taganga2.jpg" alt="Rodadero 2">
+                                      <img class="foto-slider" src="../images/taganga3.jpg" alt="Rodadero 3">
+                                    </div>
+                                  </div>
+                            </div>
+                            <div id="info3" class="modal">
+                                <div class="modal-content">
+                                  <span class="close" onclick="closeModal('info3')">&times;</span>
+                                  <div class="section-tg">
+                                    <h1 class="title-tg">PRECIOS PARA LLEGAR A TAGANGA</h1>
+                                    <ul>
+                                      <li>Taxi: $15.000 - $17.000</li>
+                                      <li>Bus: $2.300</li>
+                                    </ul>
+                                  </div>
+                                
+                                  <div class="section-tg">
+                                    <h1 class="title-tg">Precios de la comida (almuerzos) en Taganga</h1>
+                                    <p>La comida (almuerzos) en Taganga oscila entre los $25.000 a $100.000.</p>
+                                  </div>
+                                </div>
+                                <script src="../js/menu2.js"></script>
+</body>
+</html>
