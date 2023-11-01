@@ -1,0 +1,6 @@
+@media screen and (max-width:425px){
+    /*Cinto*/
+    #container-nav{
+        justify-content: space-between;
+    }
+}

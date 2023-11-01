@@ -19,13 +19,16 @@
     background-image: url(../images/Playacristalheader.jpg);
     object-fit: center;
     background-color: gray;
+    color: #fcbd10;
 }
 .SectionMenu h1{
     font-size: 70px;
     margin: 0;
+    color: #fcbd10;
 }
 .SectionMenu p{
     font-size: 20px;
+    color: #fcbd10;
 }
 .hrcristal{
     border: none;
@@ -180,4 +183,108 @@
 }
 .nav__title a{
     text-decoration: none;
+}
+/*IMAGES FOR PAGES HEADER*/
+/*cristal*/
+#ImageSectionMenuCristal{
+    background-image: url(../images/sites/Playa\ Cristal.jpg);
+    background-position: center;
+    background-image: cover;
+}
+/*Cinto*/
+#ImageSectionMenuCinto{
+    background-image: url(../images/sites/cinto.jpg);
+    background-position: center;
+    background-image: cover;    
+}
+/*Buritaca*/
+#ImageSectionMenuBuri{
+    background-image: url(../images/sites/buritaca.jpeg);
+    background-position: center;
+    background-image: cover;   
+}
+
+/*Responsive Mobile*/
+@media screen and (max-width:425px){
+    /*Cinto*/
+    #container-nav{
+        justify-content: space-between;
+    }
+    .SectionMenu{
+        text-align: center;
+    }
+    .InfoP{
+        height: 490px;
+    }
+    .Note{
+        flex-direction: column;
+    }
+    .GridNote{
+        height: 130px;
+    }
+    .InfoNote{
+        width: 380px;
+    }
+    .InfoNoteTwo{
+        width: 380px;
+    }
+
+    /*Cristal*/
+    #InfoPCristal{
+        height: 400px;
+    }
+    .ubication{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+    .MoreInfo{
+        flex-direction: column;
+        height: 600px;
+    }
+    #InfoNoteTwoCristal{
+        height: 400px;
+    }
+    .GridNote{
+        height: 100%;
+    }
+    #NoteCristal{
+        height: 800px;
+    }
+    #InfoNoteCristal{
+        width: 380px;
+        height: 260px;
+    }
+    #InfoCristal{
+        width: 380px;
+        margin: 15px 0;
+        border-radius: 15px !important;
+    }
+
+    .MoreInfo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #imageUbicationNone{
+        display: none;
+    }
+    /*Buritaca*/
+    #InfoPBuri{
+        height: 350px;
+    }
+    #Justify{
+        width: 350px;
+    }
+    #UbiBuri{
+        height: 800px;
+    }
+}
+/*Responsive tablet*/
+@media screen and (min-width: 426px) and (min-width: 768px){
+    .InfoP{
+        height: 200px;
+    }
 }
