@@ -574,7 +574,7 @@ background-position: 0 0,10px 10px;
 
 /*integrantes*/
 .integrantes__container{
-    padding-top: 50px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     gap: 5em;
@@ -634,6 +634,29 @@ background-position: 0 0,10px 10px;
       max-width: 300px; /* Limita el ancho máximo */
       margin-bottom: 20px;
   }
+
+  .nombres{
+    height: 0;
+    font-size: 10px;
+    text-align: justify;
+    text-decoration-color: #2b2b2b;
+}
+
+.rol{
+  height: 2px;
+  font-size: 10px;
+  font-weight: 0;
+  color: #615f5f;
+}
+
+.tags-btn{
+  display: flex;
+  justify-content:space-between;
+}
+
+.btn{
+  list-style: none;
+}
 }
 
 
