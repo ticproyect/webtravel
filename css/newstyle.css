@@ -203,6 +203,23 @@
     background-position: center;
     background-image: cover;   
 }
+  
+.imageUbicationBuri{
+    background-image: url(../images/sites/Buritacariu.webp);
+    background-position: center;
+    background-image: cover; 
+    width: 40%;
+    background-color: gray;
+    border-radius: 15px;
+}
+.imageUbicationCristal{
+    background-image: url(../images/sites/Playa-Cristal-33.jpg);
+    background-position: center;
+    background-image: cover; 
+    width: 40%;
+    background-color: gray;
+    border-radius: 15px;
+}
 
 /*Responsive Mobile*/
 @media screen and (max-width:425px){
