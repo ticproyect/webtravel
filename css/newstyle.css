@@ -298,6 +298,36 @@
     #UbiBuri{
         height: 800px;
     }
+    /*Playa Blanca*/
+    .foto-description{
+        display: none !important;
+    }
+    .container-foto img{
+        display: none !important;
+    }
+    .paragraph-playablanca{
+        width: 250px;
+    }
+    .description-playablanca{
+        height: 700px;
+    }
+    .flexopciones{
+        flex-direction: column  ;
+        height: 560px;
+    }
+    .opciones-llegar{
+        margin: 5px;
+        border-radius: 10px;
+    }
+    .precios-container-playa{
+        border-radius: 10px;
+    }
+    .flexopciones2{
+        border-radius: 10px;
+    }
+    .playablancahr{
+        margin-top: 170px;
+    }
 }
 /*Responsive tablet*/
 @media screen and (min-width: 426px) and (min-width: 768px){
